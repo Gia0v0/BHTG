@@ -1,0 +1,11 @@
+{
+  "actions_csv": {
+    "path": "actions.csv",
+    "sha256": "e4f72a592970a13e158dfc4073d7026265d51c663fa06723983cfde3a4ed1df5"
+  },
+  "manifest": {
+    "path": "manifest.json",
+    "sha256": "c749bac96e47e0f43077260eeccdad7ba25b52fab8c7215b281384633d552d3f"
+  },
+  "schema_version": "bhtg_active_four_actions_v1"
+}

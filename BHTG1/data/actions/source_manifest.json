@@ -1,0 +1,45 @@
+{
+  "builder": {
+    "path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\reviews\\20261013_four_actions\\build_four_actions.py",
+    "sha256": "8483101c114899e97f709f1681d560969a12e933aa15ca62dc2bd674e12f1600"
+  },
+  "creation": {
+    "counts": {
+      "verified_direct": 2549,
+      "verified_internal": 124
+    },
+    "coverage_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\creation_coverage.json",
+    "coverage_sha256": "21aef59a2ac77e4088a670ecead230d40755ef4dfbed56930353641dbabb3073",
+    "frozen_targets_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\frozen\\targets.csv",
+    "frozen_targets_sha256": "4bad0c3118a49cdf53f28b62686150665f20c08fb9f8d20aca5adad653a33cb6",
+    "manifest_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\manifest.json",
+    "manifest_sha256": "92ccaf9ec75fd4498f6b189efd7f7fe09d0094f69ef661a3d17b2362b3e7a1e5",
+    "path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\creation_verified.csv",
+    "pure_reverification_count": 2673,
+    "rows": 2673,
+    "sha256": "fb8285322e58beb462bcd7d52a05c054a6dfc92916409ea660b85b44b34f8595",
+    "snapshot": {
+      "block_hash": "0xd43fccaa7367fe0fe58f43d26138f1f9b2102db4b094282409d086147a2a15b8",
+      "block_number": 26168558,
+      "chain_id": 1
+    }
+  },
+  "creation_verifier": {
+    "path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\bhtg\\data_collection\\creation_verifier.py",
+    "sha256": "379e51cd984d4419c47bc46c33544878ab98585057dff7639641e5edefb14ac1"
+  },
+  "expected_source_sha_from": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\reviews\\20261002_collection_review\\transfer_preprocess_audit.json",
+  "schema_version": "bhtg_four_actions_sources_v1",
+  "sources": {
+    "labeled": {
+      "bytes": 36058868,
+      "path": "E:\\新建文件夹\\Program Files (x86)\\RugScreener-main-main\\RugScreener-main-main\\data\\transfer_std_label.csv",
+      "sha256": "16453ad8feed338692f91502278f7cc1b3c5b0862524df0ae1d28820eeb78fcb"
+    },
+    "unlabeled": {
+      "bytes": 53237122,
+      "path": "E:\\新建文件夹\\Program Files (x86)\\RugScreener-main-main\\RugScreener-main-main\\data\\token_transfer.csv",
+      "sha256": "2f07cd1e40ca276161c7211023d15a0c1db74cab27c1804f32c835443a093d25"
+    }
+  }
+}

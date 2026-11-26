@@ -1,0 +1,231 @@
+{
+  "action_counts": {
+    "burn": 6272,
+    "create": 2673,
+    "mint": 37851,
+    "transfer": 537994
+  },
+  "actions_csv": {
+    "path": "actions.csv",
+    "rows": 584790,
+    "sha256": "e4f72a592970a13e158dfc4073d7026265d51c663fa06723983cfde3a4ed1df5"
+  },
+  "actions_file": "actions.csv",
+  "amount_policy": "model_value_zero_original_text_audit_only",
+  "base_dataset_manifest": {
+    "bytes": 5688,
+    "path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_pool_create_v1\\base_four_actions_manifest.json",
+    "sha256": "149f42ba6f4fa491d5906c48f204cd4329cc9dc7bdc9c3bc2743e255891d04fc"
+  },
+  "columns": [
+    "edge_type",
+    "src_addr",
+    "dst_addr",
+    "token_addr",
+    "timestamp",
+    "label",
+    "value",
+    "value_text",
+    "source_role",
+    "source_file_path",
+    "source_file_sha256",
+    "source_row",
+    "source_row_id",
+    "row_identity_kind",
+    "duplicate_candidate",
+    "label_status",
+    "native_order_available",
+    "chain_id",
+    "tx_hash",
+    "block_number",
+    "block_hash",
+    "transaction_index",
+    "log_index",
+    "creator_address",
+    "tx_sender_address",
+    "factory_address",
+    "creation_kind",
+    "verification",
+    "reason",
+    "evidence_path",
+    "evidence_sha256",
+    "evidence_file_sha256",
+    "verification_evidence_sha256",
+    "result_path",
+    "result_sha256",
+    "result_file_sha256",
+    "provenance",
+    "historical_proof_method",
+    "trace_method",
+    "creation_proof_kind",
+    "receipt_status"
+  ],
+  "counts": {
+    "per_action": {
+      "burn": 6272,
+      "create": 2673,
+      "mint": 37851,
+      "transfer": 537994
+    },
+    "per_creation_kind": {
+      "direct": 2549,
+      "internal": 124
+    },
+    "per_source_role": {
+      "creation": 2673,
+      "labeled": 222123,
+      "unlabeled": 359994
+    },
+    "rows": 584790
+  },
+  "created_at_utc": "2026-11-11T04:46:51.002405+00:00",
+  "creation_reverified": 2673,
+  "creation_snapshot": {
+    "block_hash": "0xd43fccaa7367fe0fe58f43d26138f1f9b2102db4b094282409d086147a2a15b8",
+    "block_number": 26168558,
+    "chain_id": 1
+  },
+  "dataset_variant": "pool_create_train_snapshot_v1",
+  "diagnostic_only": true,
+  "event_semantics": "one_saved_source_record_or_verified_creation_per_row",
+  "evidence_manifest": {
+    "count": 2673,
+    "path": "creation_proof_manifest.json",
+    "sha256": "ef6e4f669ef1a0a6e18006af4a1c8573ecf842089a6d12e594830500d0bcde6f"
+  },
+  "files": {
+    "README.md": {
+      "bytes": 1212,
+      "sha256": "09062846698c79c5583c438a6a0224127d056da1096c09268cbef3483033e658"
+    },
+    "actions.csv": {
+      "bytes": 312020129,
+      "sha256": "e4f72a592970a13e158dfc4073d7026265d51c663fa06723983cfde3a4ed1df5"
+    },
+    "base_four_actions_manifest.json": {
+      "bytes": 5688,
+      "sha256": "149f42ba6f4fa491d5906c48f204cd4329cc9dc7bdc9c3bc2743e255891d04fc"
+    },
+    "creation_proof_manifest.json": {
+      "bytes": 2839078,
+      "sha256": "ef6e4f669ef1a0a6e18006af4a1c8573ecf842089a6d12e594830500d0bcde6f"
+    },
+    "pool_integration_audit.json": {
+      "bytes": 1655521,
+      "sha256": "1329e8dc304f5c5ee57cc716c4ee500e488d7b8e70bf0e44db19efc2a88507ee"
+    },
+    "pool_roles_by_snapshot.jsonl": {
+      "bytes": 52130489,
+      "sha256": "fc6662d3bf647928ecc85c4a48cdf56e8c42ab92ae7559b2a154bfa2ba9bf65c"
+    },
+    "pool_source/anchors.json": {
+      "bytes": 1074,
+      "sha256": "8c0976c7788264a6dae428c5d7a9293a7ad76a2e0407bb747cb43e8906ca53f8"
+    },
+    "pool_source/collection_summary.json": {
+      "bytes": 1779,
+      "sha256": "ea8ad81d9af942547d218c4b0a076358d38074be73db4c7e31121003bbabdb59"
+    },
+    "pool_source/preflight.json": {
+      "bytes": 1350,
+      "sha256": "df7b3e3db270c2c612889fec809f123a2a3bf126aadebb91722cd7db6ee52106"
+    },
+    "pool_source/status.json": {
+      "bytes": 1779,
+      "sha256": "ea8ad81d9af942547d218c4b0a076358d38074be73db4c7e31121003bbabdb59"
+    },
+    "quality_report.json": {
+      "bytes": 1573,
+      "sha256": "880f89615f5309f1d98609908c5038c260e09218b4a63ba6c18f19955c46dc92"
+    },
+    "quarantine.csv": {
+      "bytes": 14229,
+      "sha256": "7a9215e330764db98dda869a185dbaecb08fabdeb64e1242f1a59be4aae8275e"
+    },
+    "source_manifest.json": {
+      "bytes": 2484,
+      "sha256": "401026e7208c1551a009cdf70d6aa4f925d9c3bcf5c3326b1818399c8f6bd105"
+    },
+    "train_pool_overlay.json": {
+      "bytes": 2749898,
+      "sha256": "7dd2de32b05a8f2096805d76678bde1578b322887802946ea999a4af32ec12e5"
+    }
+  },
+  "formal_training_ready": false,
+  "graph_publication": "model/manifest.json binds graph artifacts separately",
+  "label_policy": "inherited_legacy_unverified",
+  "legacy_source_identity": "source_file_sha256_and_source_data_row_number",
+  "model_amount_policy": "masked_zero_preserve_source_text",
+  "network_executed": false,
+  "pool_identity": {
+    "contract_targets_with_additional_pool_role": 3,
+    "future_created_pool_roles_sidecar_only": 539,
+    "integration_audit": {
+      "path": "pool_integration_audit.json",
+      "sha256": "1329e8dc304f5c5ee57cc716c4ee500e488d7b8e70bf0e44db19efc2a88507ee"
+    },
+    "outside_graph_included": false,
+    "overlay": {
+      "path": "train_pool_overlay.json",
+      "sha256": "7dd2de32b05a8f2096805d76678bde1578b322887802946ea999a4af32ec12e5"
+    },
+    "pool_discovery_exhaustive": false,
+    "scope": "configured_factories_graph_pools",
+    "snapshot_roles": {
+      "path": "pool_roles_by_snapshot.jsonl",
+      "sha256": "fc6662d3bf647928ecc85c4a48cdf56e8c42ab92ae7559b2a154bfa2ba9bf65c"
+    },
+    "source_run": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_collection_runs\\pool_identity_20261022_161043\\main_stage_pool_first_20261023_optimized_v2",
+    "train_static_pool_nodes": 3321,
+    "verified_by_snapshot": {
+      "data_end": 3863,
+      "train": 3324,
+      "val": 3651
+    },
+    "verified_unique_pools": 3863
+  },
+  "quarantined_rows": 25,
+  "record_semantics": "one_source_event_per_row_transfer_graph_legs_derived_only",
+  "row_count": 584790,
+  "schema_version": "bhtg_four_actions_csv_v1",
+  "source_inputs": {
+    "creation": {
+      "counts": {
+        "verified_direct": 2549,
+        "verified_internal": 124
+      },
+      "coverage_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\creation_coverage.json",
+      "coverage_sha256": "21aef59a2ac77e4088a670ecead230d40755ef4dfbed56930353641dbabb3073",
+      "frozen_targets_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\frozen\\targets.csv",
+      "frozen_targets_sha256": "4bad0c3118a49cdf53f28b62686150665f20c08fb9f8d20aca5adad653a33cb6",
+      "manifest_path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\manifest.json",
+      "manifest_sha256": "92ccaf9ec75fd4498f6b189efd7f7fe09d0094f69ef661a3d17b2362b3e7a1e5",
+      "path": "E:\\新建文件夹\\Program Files (x86)\\BHTG\\data_versions\\rugscreener_creation_verified_v1\\creation_verified.csv",
+      "pure_reverification_count": 2673,
+      "rows": 2673,
+      "sha256": "fb8285322e58beb462bcd7d52a05c054a6dfc92916409ea660b85b44b34f8595",
+      "snapshot": {
+        "block_hash": "0xd43fccaa7367fe0fe58f43d26138f1f9b2102db4b094282409d086147a2a15b8",
+        "block_number": 26168558,
+        "chain_id": 1
+      }
+    },
+    "labeled": {
+      "bytes": 36058868,
+      "path": "E:\\新建文件夹\\Program Files (x86)\\RugScreener-main-main\\RugScreener-main-main\\data\\transfer_std_label.csv",
+      "sha256": "16453ad8feed338692f91502278f7cc1b3c5b0862524df0ae1d28820eeb78fcb"
+    },
+    "unlabeled": {
+      "bytes": 53237122,
+      "path": "E:\\新建文件夹\\Program Files (x86)\\RugScreener-main-main\\RugScreener-main-main\\data\\token_transfer.csv",
+      "sha256": "2f07cd1e40ca276161c7211023d15a0c1db74cab27c1804f32c835443a093d25"
+    }
+  },
+  "source_role_counts": {
+    "creation": 2673,
+    "labeled": 222123,
+    "unlabeled": 359994
+  },
+  "status": "complete",
+  "timestamp_policy": "exact_integer_utc_seconds_same_second_concurrent"
+}
